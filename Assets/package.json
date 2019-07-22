@@ -1,0 +1,31 @@
+{
+  "name": "unity-dynamic-scroll-rect",
+  "version": "1.0.0",
+  "displayName": "Unity Dynamic Scroll Rect",
+  "unity": "2018.3",
+  "description": "An optimized approach to lists with dozens of elements and a pooling system.",
+  "author": "Murillo Pugliesi Lopes <@Mukarillo>",
+  "contributors": [
+    {
+      "name": "Noxalus"
+    },
+	{
+	  "name": "Seregone"
+	}
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Noxalus/UnityDynamicScrollRect"
+  },
+  "bugs": {
+    "url": "https://github.com/Noxalus/UnityDynamicScrollRect/issues"
+  },
+  "category": "UI",
+  "keywords": [
+    "Unity3D",
+    "Unity",
+    "UI",
+    "Dynamic ScrollRect"
+  ],
+  "license": "MIT"
+}
