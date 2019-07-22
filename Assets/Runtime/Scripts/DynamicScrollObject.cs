@@ -1,8 +1,7 @@
 ﻿using System;
-using pooling;
 using UnityEngine;
 
-namespace dynamicscroll
+namespace UnityDynamicScrollRect
 {
     //OBJECT ANCHOR MUST BE TOP LEFT
     public abstract class DynamicScrollObject<T> : PoolObject, IScrollItem, IComparable

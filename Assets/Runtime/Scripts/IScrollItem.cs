@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace dynamicscroll
+namespace UnityDynamicScrollRect
 {
     public interface IScrollItem
     {

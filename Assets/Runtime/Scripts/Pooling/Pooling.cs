@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace pooling
+namespace UnityDynamicScrollRect
 {
     public class Pooling<T> : List<T> where T : MonoBehaviour, IPooling
     {

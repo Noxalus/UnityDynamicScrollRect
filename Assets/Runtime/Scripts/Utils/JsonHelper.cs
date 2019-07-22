@@ -3,18 +3,21 @@
 using UnityEngine;
 using System;
 
-public class JsonHelper
+namespace UnityDynamicScrollRect
 {
-    public static T[] getJsonArray<T>(string json)
-    {
-        string newJson = "{ \"array\": " + json + "}";
-        Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>> (newJson);
-        return wrapper.array;
-    }
- 
-    [Serializable]
-    private class Wrapper<T>
-    {
-        public T[] array;
-    }
+	public class JsonHelper
+	{
+		public static T[] getJsonArray<T>(string json)
+		{
+			string newJson = "{ \"array\": " + json + "}";
+			Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(newJson);
+			return wrapper.array;
+		}
+
+		[Serializable]
+		private class Wrapper<T>
+		{
+			public T[] array;
+		}
+	}
 }

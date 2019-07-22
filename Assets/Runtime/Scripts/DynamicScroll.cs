@@ -1,11 +1,10 @@
 using System;
 using UnityEngine;
 using UnityEngine.UI;
-using pooling;
 using UnityEngine.EventSystems;
 using UnityEngine.Events;
 
-namespace dynamicscroll
+namespace UnityDynamicScrollRect
 {
 	[Flags]
     public enum ScrollDirection

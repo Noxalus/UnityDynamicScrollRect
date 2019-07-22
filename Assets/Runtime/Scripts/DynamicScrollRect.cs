@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine;
 
-namespace dynamicscroll
+namespace UnityDynamicScrollRect
 {
 	public class DynamicScrollRectEvent : UnityEvent<PointerEventData> { }
 	public class DynamicScrollRect : ScrollRect

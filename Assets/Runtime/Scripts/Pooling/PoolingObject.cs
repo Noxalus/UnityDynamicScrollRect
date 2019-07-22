@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace pooling
+namespace UnityDynamicScrollRect
 {
 	public abstract class PoolObject : MonoBehaviour, IPooling
     {

@@ -1,4 +1,4 @@
-﻿namespace pooling
+﻿namespace UnityDynamicScrollRect
 {
     public interface IPooling
     {
