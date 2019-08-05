@@ -9,7 +9,6 @@ public class ExampleScroll : MonoBehaviour
 	public DynamicScrollRect horizontalScroll;
 	public DynamicScrollRect gridScroll;
 	public GameObject referenceObject;
-
 	public Transform GridHolder;
 
 	private ExampleData[] mData;
@@ -30,7 +29,7 @@ public class ExampleScroll : MonoBehaviour
 		mHorizontalDynamicScroll.Initiate(horizontalScroll, mData, 0, referenceObject);
 
 		mGridDynamicScroll.spacing = 5f;
-		mGridDynamicScroll.Initiate(horizontalScroll, mData, 0, referenceObject);
+		mGridDynamicScroll.Initiate(gridScroll, mData, 0, referenceObject);
 
 		foreach (var item in mData)
 		{
